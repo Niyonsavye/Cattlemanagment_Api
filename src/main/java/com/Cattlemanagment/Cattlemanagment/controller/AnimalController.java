@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173") // 👈 ajoute ceci
+@CrossOrigin(origins = "http://localhost:5173") // Link vers Frontend
 @RestController
-@RequestMapping("/api/animals")
+@RequestMapping("/api/V1/animals")
 public class AnimalController {
 
     @Autowired
