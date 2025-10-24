@@ -50,9 +50,8 @@ public class SecurityConfig {
                                 "/webjars/**",
                                 "/v3/api-docs.yaml",
                                 "/v3/api-docs",
-                                "/api/auth/**",
-                                "/api/animals/**",
-                                "/api/finance/**"
+                                "/api/auth/**"
+                              
                         ).permitAll()
                         .anyRequest().authenticated()
                 )

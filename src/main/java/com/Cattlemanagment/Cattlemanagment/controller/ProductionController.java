@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/V1/productions")
+@RequestMapping("/api/production")
 public class ProductionController {
 
     @Autowired

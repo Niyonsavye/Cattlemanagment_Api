@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/V1/vaccinations")
+@RequestMapping("/api/vaccination")
 public class VaccinationController {
 
     @Autowired

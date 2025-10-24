@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/V1/auth")
+@RequestMapping("/api/auth")
 @CrossOrigin
 public class AuthController {
 
